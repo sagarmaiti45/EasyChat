@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_primary"
+    tools:context=".SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+
+            app:lottie_rawRes="@raw/chatanim"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Easy Chat"
+            android:textSize="31dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="@string/material_motion_easing_linear"
+            
+            />
+        <ProgressBar
+            android:layout_width="31dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Developed by Sagar, Ritesh and Joyshree"
+            android:textAlignment="center"
+            android:lineHeight="21dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="serif-monospace"
+
+            />
+
+
+    </LinearLayout>
+    
+
+
+
+</RelativeLayout>
